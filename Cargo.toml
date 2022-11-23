@@ -1,5 +1,5 @@
 [package]
-categories = ['caching', 'rust patterns', 'memory management']
+categories = ['caching', 'rust-patterns', 'memory-management']
 description = 'Make static strs from any string'
 documentation = 'https://docs.rs/ascend'
 edition = '2021'
