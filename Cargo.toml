@@ -1,0 +1,19 @@
+[package]
+categories = ['caching', 'rust patterns', 'memory management']
+description = 'Make static strs from any string'
+documentation = 'https://docs.rs/ascend'
+edition = '2021'
+keywords = ['static', 'str', 'string', 'leak']
+license = 'Unlicense'
+name = 'ascend'
+repository = "https://github.com/kaikalii/ascend"
+version = '0.1.0'
+
+[dependencies]
+once_cell = '1'
+serde.features = ['derive']
+serde.optional = true
+serde.version = '1'
+
+[package.metadata.docs.rs]
+features = ['simd']
