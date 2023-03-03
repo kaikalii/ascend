@@ -39,7 +39,7 @@ pub fn static_str(s: &str) -> &'static str {
     })
 }
 
-/// Check if the given `str` is cached as a static `str`.
+/// Check if the given `str` is cached as a static `str` in this thread.
 pub fn is_cached(s: &str) -> bool {
     STATIC_STRS.with(|strs| strs.borrow().contains(s))
 }
